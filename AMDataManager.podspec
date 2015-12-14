@@ -8,18 +8,13 @@ Pod::Spec.new do |s|
 
   	s.ios.deployment_target 	= '8.0'
   	s.requires_arc 			= true
-  	# s.source_files 		= 'project/AMDataManager.framework'
 	s.ios.vendored_frameworks	= 'project/AMDataManager.framework'
 
   	s.dependency 'Alamofire', '~> 3.0'
 
-#  s.ios.deployment_target	 	= '6.1'
 #  s.prefix_header_file 		= 'NUSDataManager/NUSDataManager-Prefix.pch'
-#  s.source_files			= 'Headers/*.{h}'
-#  s.xcconfig 				= { 'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/NUSDataManager' }
 #  s.frameworks             		= "Foundation", "CoreLocation"
-#  s.preserve_paths 			= 'project/AMDataManager/*.framework'
-#  s.vendored_libraries		= 'project/*.framework'
 #  s.resources 				= "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
+
 
 end
