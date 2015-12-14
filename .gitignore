@@ -17,6 +17,12 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+project/Build/
+project/Output/
+Pods/
+Podfile.lock
+AMDatamanager.xcworkspace
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
@@ -31,3 +37,9 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+# Bundler
+.bundle
+
+# OS X
+.DS_Store

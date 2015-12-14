@@ -1,0 +1,10 @@
+framework module AMDataManager {
+  umbrella header "AMDataManager.h"
+
+  export *
+  module * { export * }
+}
+
+module AMDataManager.Swift {
+    header "AMDataManager-Swift.h"
+}

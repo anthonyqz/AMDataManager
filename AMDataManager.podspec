@@ -1,0 +1,25 @@
+Pod::Spec.new do |s|
+  s.name = 'AMDataManager'
+  s.version = '0.5.0'
+  s.summary          = "Call easy to the web service REST json"
+
+  s.platform     = :ios, '8.0'
+  s.requires_arc = true
+
+  s.dependency 'Alamofire', '~> 3.0'
+  s.author       = { "Christian Quicano" => "anthony.qz@ecorenetworks.com" }
+
+  s.source = {:git => 'https://github.com/anthonyqz/AMDataManager', :tag => s.version.to_s}
+
+
+
+
+
+#  s.ios.deployment_target = '6.1'
+#  s.prefix_header_file = 'NUSDataManager/NUSDataManager-Prefix.pch'
+#  s.source_files = 'Headers/*.{h}'
+#  s.preserve_paths = 'libNUSDataManager.a'
+#  s.vendored_libraries = 'libNUSDataManager.a'
+#  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '${PODS_ROOT}/NUSDataManager' }
+
+end
