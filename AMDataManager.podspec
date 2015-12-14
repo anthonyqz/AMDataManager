@@ -9,8 +9,9 @@ Pod::Spec.new do |s|
   	s.ios.deployment_target 	= '8.0'
   	s.requires_arc 			= true
   	s.source_files 			= 'project/*.swift'
-  	s.preserve_paths 		= 'project/*.framework'
-  	s.vendored_libraries		= 'project/*.framework'
+
+# s.preserve_paths 		= 'project/AMDataManager/*.framework'
+# s.vendored_libraries		= 'project/*.framework'
 
   	s.dependency 'Alamofire', '~> 3.0'
 
